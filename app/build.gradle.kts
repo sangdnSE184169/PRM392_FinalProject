@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.tquang.moneymind"
+    namespace = "com.prm.money"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.tquang.moneymind"
+        applicationId = "com.prm.money"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

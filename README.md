@@ -63,7 +63,7 @@
 ```
 app/
 ├── src/main/
-│   ├── java/com/tquang/moneymind/
+│   ├── java/com/prm/money/
 │   │   ├── data/
 │   │   │   ├── db/
 │   │   │   │   └── MoneyMindDbHelper.java       # Database helper
@@ -271,17 +271,6 @@ dependencies {
 2. Chọn **Export to CSV**
 3. Chọn khoảng thời gian
 4. File CSV sẽ được lưu vào Downloads
-
----
-
-## 👥 Team Members
-
-| STT | Họ và tên | Vai trò | Trách nhiệm |
-|-----|-----------|---------|-------------|
-| 1 | Tran Duy Quang (@Dwuangne) | Team Lead | Architecture, Database, Core Features |
-| 2 | huy1412 (@huy1412) | Developer | Transaction Management |
-| 3 | Trần Bình Nam (@tranbinhnam2234) | Developer | Wallet Management |
-| 4 | Nguyễn Phước Duy (@EugeneDNG41) | Developer | Goals & Analytics |
 
 ---
 
