@@ -1,0 +1,27 @@
+<resources>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Chủ đạo (tone xanh xám tối) -->
+    <color name="colorPrimary">#121212</color> <!-- nền chính: đen đậm -->
+    <color name="colorPrimaryVariant">#1F1F1F</color> <!-- nền phụ -->
+    <color name="colorAccent">#FFB74D</color> <!-- cam nhẹ tạo điểm nhấn -->
+
+    <!-- Nền -->
+    <color name="colorBackground">#1A1A1A</color> <!-- chuẩn dark -->
+    <color name="colorSurface">#1E1E1E</color> <!-- gần đen nhưng nổi bật nhẹ -->
+
+    <!-- Văn bản -->
+    <color name="colorText">#FFFFFF</color> <!-- trắng hoàn toàn -->
+    <color name="colorTextSecondary">#CCCCCC</color> <!-- xám nhạt dễ nhìn hơn -->
+
+    <!-- Khác -->
+    <color name="colorError">#CF6679</color> <!-- error tone phù hợp dark -->
+    <color name="colorIncome">#81C784</color> <!-- xanh lá nhạt -->
+    <color name="colorExpense">#E57373</color> <!-- đỏ nhạt -->
+</resources>

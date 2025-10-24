@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chỉnh sửa mục tiêu tháng"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etGoalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số tiền mục tiêu (VNĐ)"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorTextSecondary"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etGoalNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ghi chú"
+        android:padding="12dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorTextSecondary"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnSaveGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu mục tiêu"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"/>
+
+</LinearLayout> 

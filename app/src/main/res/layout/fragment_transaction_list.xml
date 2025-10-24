@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".ui.fragment.TransactionListFragment">
+
+    <!-- Header with title and add button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Transactions"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:gravity="start" />
+
+        <ImageButton
+            android:id="@+id/fab_add_transaction"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_add"
+            android:contentDescription="Add Transaction"
+            app:tint="@color/colorPrimary"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSortAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp"
+        android:text="Sort"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        app:icon="@drawable/arrow_downward_24px"
+        app:iconTint="@color/white"
+        app:iconGravity="textEnd"
+        app:iconPadding="8dp"
+        app:cornerRadius="20dp"
+        app:elevation="4dp"
+        app:layout_constraintTop_toTopOf="@id/tvRecentTransactionsTitle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTransactions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        tools:listitem="@layout/item_transaction" />
+
+</LinearLayout> 

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Goal Icon -->
+        <ImageView
+            android:id="@+id/ivGoalIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ic_flag"
+            android:backgroundTint="@color/teal_700"
+            android:padding="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Category Name -->
+        <TextView
+            android:id="@+id/tvCategoryName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="Necessities (NEC)"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            app:layout_constraintEnd_toStartOf="@+id/tvGoalAmount"
+            app:layout_constraintStart_toEndOf="@+id/ivGoalIcon"
+            app:layout_constraintTop_toTopOf="@+id/ivGoalIcon" />
+
+        <!-- Goal Month/Year -->
+        <TextView
+            android:id="@+id/tvGoalMonthYear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="Tháng 5/2024"
+            android:textSize="14sp"
+            android:textColor="@color/colorTextSecondary"
+            app:layout_constraintEnd_toStartOf="@+id/tvGoalAmount"
+            app:layout_constraintStart_toEndOf="@+id/ivGoalIcon"
+            app:layout_constraintTop_toBottomOf="@+id/tvCategoryName" />
+
+        <!-- Goal Note -->
+        <TextView
+            android:id="@+id/tvGoalNote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="Tiết kiệm cho du lịch"
+            android:textSize="13sp"
+            android:textColor="@color/colorTextSecondary"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:layout_constraintEnd_toStartOf="@+id/tvGoalAmount"
+            app:layout_constraintStart_toEndOf="@+id/ivGoalIcon"
+            app:layout_constraintTop_toBottomOf="@+id/tvGoalMonthYear" />
+
+        <!-- Goal Amount -->
+        <TextView
+            android:id="@+id/tvGoalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target: 2,000,000đ"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Spent Amount -->
+        <TextView
+            android:id="@+id/tvSpentAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Spent: 1,300,000đ"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="@+id/tvGoalAmount"
+            app:layout_constraintTop_toBottomOf="@+id/tvGoalAmount" />
+
+        <!-- Progress Bar -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:max="100"
+            android:progress="65"
+            android:progressTint="@color/colorPrimary"
+            android:progressBackgroundTint="@color/colorSurface"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivGoalIcon"
+            app:layout_constraintTop_toBottomOf="@+id/tvGoalNote" />
+
+        <!-- Progress Text -->
+        <TextView
+            android:id="@+id/tvProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="65%"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/progressBar"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView> 

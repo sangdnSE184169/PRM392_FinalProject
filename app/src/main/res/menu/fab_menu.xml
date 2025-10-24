@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add_transaction"
+        android:title="Add Transaction"
+        android:icon="@drawable/ic_add"/>
+    <item
+        android:id="@+id/menu_export_csv"
+        android:title="Export CSV"
+        android:icon="@drawable/ic_export"/>
+    <item
+        android:id="@+id/menu_import_csv"
+        android:title="Import CSV"
+        android:icon="@drawable/ic_import"/>
+</menu>
