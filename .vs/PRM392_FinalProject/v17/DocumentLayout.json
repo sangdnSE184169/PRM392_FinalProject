@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\ui\\adapter\\SwipeHelper.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\src\\main\\java\\com\\prm\\money\\ui\\adapter\\SwipeHelper.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\ui\\fragment\\HomeFragment.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\src\\main\\java\\com\\prm\\money\\ui\\fragment\\HomeFragment.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\ui\\activity\\AddEditTransactionActivity.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\src\\main\\java\\com\\prm\\money\\ui\\activity\\AddEditTransactionActivity.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\data\\repository\\TransactionDao.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\src\\main\\java\\com\\prm\\money\\data\\repository\\TransactionDao.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\data\\db\\MoneyMindDbHelper.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\src\\main\\java\\com\\prm\\money\\data\\db\\MoneyMindDbHelper.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\MoneyMindApplication.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\src\\main\\java\\com\\prm\\MoneyMindApplication.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeFragment.java",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\ui\\fragment\\HomeFragment.java",
+              "RelativeDocumentMoniker": "app\\src\\main\\java\\com\\prm\\money\\ui\\fragment\\HomeFragment.java",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\ui\\fragment\\HomeFragment.java",
+              "RelativeToolTip": "app\\src\\main\\java\\com\\prm\\money\\ui\\fragment\\HomeFragment.java",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-26T08:04:50.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SwipeHelper.java",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\ui\\adapter\\SwipeHelper.java",
+              "RelativeDocumentMoniker": "app\\src\\main\\java\\com\\prm\\money\\ui\\adapter\\SwipeHelper.java",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\ui\\adapter\\SwipeHelper.java",
+              "RelativeToolTip": "app\\src\\main\\java\\com\\prm\\money\\ui\\adapter\\SwipeHelper.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-26T08:04:16.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEditTransactionActivity.java",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\ui\\activity\\AddEditTransactionActivity.java",
+              "RelativeDocumentMoniker": "app\\src\\main\\java\\com\\prm\\money\\ui\\activity\\AddEditTransactionActivity.java",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\ui\\activity\\AddEditTransactionActivity.java",
+              "RelativeToolTip": "app\\src\\main\\java\\com\\prm\\money\\ui\\activity\\AddEditTransactionActivity.java",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-26T08:00:50.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionDao.java",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\data\\repository\\TransactionDao.java",
+              "RelativeDocumentMoniker": "app\\src\\main\\java\\com\\prm\\money\\data\\repository\\TransactionDao.java",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\data\\repository\\TransactionDao.java",
+              "RelativeToolTip": "app\\src\\main\\java\\com\\prm\\money\\data\\repository\\TransactionDao.java",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-26T07:57:38.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoneyMindDbHelper.java",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\data\\db\\MoneyMindDbHelper.java",
+              "RelativeDocumentMoniker": "app\\src\\main\\java\\com\\prm\\money\\data\\db\\MoneyMindDbHelper.java",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\money\\data\\db\\MoneyMindDbHelper.java",
+              "RelativeToolTip": "app\\src\\main\\java\\com\\prm\\money\\data\\db\\MoneyMindDbHelper.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-26T07:48:36.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MoneyMindApplication.java",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\MoneyMindApplication.java",
+              "RelativeDocumentMoniker": "app\\src\\main\\java\\com\\prm\\MoneyMindApplication.java",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\prm\\PRM392_FinalProject\\app\\src\\main\\java\\com\\prm\\MoneyMindApplication.java",
+              "RelativeToolTip": "app\\src\\main\\java\\com\\prm\\MoneyMindApplication.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-26T07:31:33.343Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
