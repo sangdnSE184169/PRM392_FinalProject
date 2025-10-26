@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\src",
+    "\\app\\src\\main",
+    "\\app\\src\\main\\java",
+    "\\app\\src\\main\\java\\com",
+    "\\app\\src\\main\\java\\com\\prm",
+    "\\app\\src\\main\\java\\com\\prm\\money",
+    "\\app\\src\\main\\java\\com\\prm\\money\\model",
+    "\\app\\src\\main\\java\\com\\prm\\money\\ui",
+    "\\app\\src\\main\\java\\com\\prm\\money\\ui\\adapter"
+  ],
+  "SelectedNode": "\\app\\src\\main\\java\\com\\prm\\money\\ui\\adapter\\SwipeHelper.java",
+  "PreviewInSolutionExplorer": false
+}
